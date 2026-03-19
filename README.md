@@ -16,6 +16,19 @@ URL pública del dashboard:
 
 **Nota importante:** la primera carga puede tardar en mostrar datos porque Render suspende el servicio backend cuando no tiene actividad continua. Después de "despertar" el servicio, las siguientes peticiones responden normalmente.
 
+### Probar envío de mensajes (Twilio Sandbox)
+
+Para probar el flujo de mensajes desde WhatsApp hacia el webhook:
+
+1. Abrir el dashboard desplegado y hacer clic en el botón **Enviar mensajes**.
+2. En WhatsApp, enviar el código del sandbox de Twilio:
+
+```text
+join atmosphere-ourselves
+```
+
+Con ese paso el número queda vinculado al sandbox y puede enviar mensajes que se reflejan en el dashboard.
+
 ## 2) Stack tecnológico y justificación técnica
 
 ### Frontend
